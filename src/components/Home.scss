@@ -1,0 +1,125 @@
+.container-home {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("../../public/Group 11.svg"), url("../../public/IMG_5617\ 1.svg");
+        background-size: 60% auto, cover; 
+        background-position: left;
+        background-repeat: no-repeat;
+        opacity: 0.3; 
+        z-index: -1; 
+    }
+
+    .fumaça1 {
+        position: absolute;
+        top: -20px;
+        left: -60px;
+        width: 60px;
+        height: 100px;
+        background-color: #00ff33cb;
+        border-radius: 50%;
+        position: absolute;
+        animation: fumaça 4s infinite ease-in-out;
+        box-shadow: 0 0 60px 20px #00ff3300, 0 0 120px 30px #00ff33cb; /* Sombra mais forte e difusa */
+    }
+
+    .fumaça2 {
+        position: absolute;
+        top: -60px;
+        right: 0;
+        width: 140px;
+        height: 60px;
+        background-color: #00ff33cb;
+        border-radius: 50%;
+        position: absolute;
+        animation: fumaça 4s infinite ease-in-out;
+        box-shadow: 0 0 60px 20px #00ff333f, 0 0 120px 30px #00ff33cb; /* Sombra mais forte e difusa */
+    }
+
+    .fumaça3 {
+        position: absolute;
+        bottom: -80px;
+        left: 50%;
+        width: 100px;
+        height: 60px;
+        background-color: #00ff33cb;
+        border-radius: 50%;
+        position: absolute;
+        animation: fumaça 4s infinite ease-in-out;
+        box-shadow: 0 0 60px 20px #00ff332c, 0 0 120px 30px #00ff33cb; /* Sombra mais forte e difusa */
+    }
+
+    .container-info {
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+
+        .info {
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            flex-direction: column;
+            width: 80%;
+            padding-left: 4rem;
+            
+            h1 {
+                font-size: 2.25rem;
+                font-family: "Roboto", sans-serif;
+                color: #F3D991;
+                font-weight: 500;
+            }
+
+            p {
+                font-family: "Roboto", sans-serif;
+                color: #F3D991;
+                font-size: 1.875rem;
+                font-weight: 300;
+            }
+        }
+
+        .button-whatsApp {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to right, #00ff33cb, rgba(0, 255, 51, 0.267)); 
+            background-color: transparent;
+            border-radius: 3rem;
+            width: 400px;
+            height: 100px;
+            margin-left: 4rem;
+
+            button {
+                font-family: "Roboto", sans-serif;
+                font-weight: 600;
+                background-color: transparent;
+                border: 4px solid white;
+                border-radius: 3rem;
+                color: white;
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                width: 390px;
+                height: 90px;
+            }
+        }
+    }
+
+    img {
+        width: auto;
+        height: 100vh;
+        margin-right: -8px;
+        margin-top: -10px;
+    }
+}
