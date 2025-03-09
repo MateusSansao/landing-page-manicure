@@ -2,7 +2,7 @@ import manicure from "../../public/IMG_5616 2.svg"
 import './Home.scss'
 
 
-export default function Home() {
+export function Home() {
   return (
     <div className="container-home">
       <div className="fumaça1"></div>
@@ -16,7 +16,7 @@ export default function Home() {
           <p>
             Aprenda o Método definitivo que vai transformar a sua entrega em resultado 
             de excelência e assim fidelize clientes, 
-            faturemais e se torne uma profissionalreconhecida.
+            fature mais e se torne uma profissional reconhecida.
           </p>
           <p>
             Agora o curso presencial que já transformou a vida de mais de 800 

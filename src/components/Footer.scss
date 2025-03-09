@@ -1,0 +1,118 @@
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 90vh;
+    padding-top: 3rem;
+
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-left: 3rem;
+
+        h1 {
+            color: #F3D991;
+            font-family: "Roboto", sans-serif;
+            font-size: 2.5rem;
+            margin-bottom: 0;
+        }
+
+        p {
+            color: #F3D991;
+            font-size: 1.4rem;
+            width: 610px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+        }
+    }
+
+    img {
+        width: auto;
+        height: 600px;
+        padding-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 820px) and (min-width: 520px){
+    .container-footer {
+        width: 100%;
+        height: 900px;
+        flex-direction: column-reverse;
+
+        .footer-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            padding-left: unset;
+    
+            h1 {
+                color: #F3D991;
+                font-family: "Roboto", sans-serif;
+                font-size: 2.2rem;
+                margin-bottom: 0;
+            }
+    
+            p {
+                color: #F3D991;
+                font-size: 1.1rem;
+                width: 80%;
+                height: auto;
+                font-family: "Roboto", sans-serif;
+                font-weight: 300;
+                line-height: 22px;
+            }
+        }
+
+        img {
+            width: auto;
+            height: 450px;
+            padding-right: unset;
+        }
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .container-footer {
+        width: 100%;
+        height: 900px;
+        flex-direction: column-reverse;
+
+        .footer-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            padding-left: unset;
+    
+            h1 {
+                color: #F3D991;
+                font-family: "Roboto", sans-serif;
+                font-size: 2.2rem;
+                margin-bottom: 0;
+            }
+    
+            p {
+                color: #F3D991;
+                font-size: 1.1rem;
+                width: 325px;
+                height: auto;
+                font-family: "Roboto", sans-serif;
+                font-weight: 300;
+                line-height: 22px;
+            }
+        }
+
+        img {
+            width: auto;
+            height: 300px;
+            padding-right: unset;
+        }
+    }
+}

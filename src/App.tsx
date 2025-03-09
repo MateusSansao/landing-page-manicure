@@ -1,7 +1,13 @@
-import Home from "./components/Home";
+import { Footer, Home, Path } from "./components"
 
 function App(){
-  return <Home />;
+  return (
+    <>
+      <Home />
+      <Path/>
+      <Footer/>
+    </>
+  );
 }
 
 export default App
