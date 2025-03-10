@@ -5,6 +5,11 @@ import trofeu from "../../public/Design sem nome (5) (1) 1.svg"
 import "./Info.scss"
 
 export function Path() {
+
+    const linkInfo = () => {
+        window.open("https://chat.whatsapp.com/BPTY09YTeMHJnBScBw2o3q", "_blank");
+      };
+
   return (
     <div className="container-path">
         <div className="title">
@@ -43,7 +48,7 @@ export function Path() {
         </div>
         <div className="container-button">
             <div className="button-info">
-                <button>
+                <button onClick={linkInfo}>
                     Entar no grupo vip!
                 </button>
             </div>

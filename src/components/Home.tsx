@@ -3,6 +3,11 @@ import './Home.scss'
 
 
 export function Home() {
+
+  const linkHome = () => {
+    window.open("https://chat.whatsapp.com/BPTY09YTeMHJnBScBw2o3q", "_blank");
+  };
+
   return (
     <div className="container-home">
       <div className="fumaça1"></div>
@@ -24,7 +29,7 @@ export function Home() {
           </p>
         </div>
         <div className="button-whatsApp">
-          <button>
+          <button onClick={linkHome}>
               Entre no grupo exclusivo!
           </button>
         </div>
