@@ -13,7 +13,7 @@ export function Path() {
   return (
     <div className="container-path">
         <div className="title">
-            <h1>O <span>"caminho para se tornar uma manicure expert"</span> é para que você que...</h1>
+            <h1>O <span>"caminho para se tornar uma manicure expert"</span> é para você que...</h1>
         </div>  
         <div className="container-list">
             <div className="list">
@@ -34,7 +34,7 @@ export function Path() {
                 <div className="list-info3">
                     <img src={loading}/>
                     <p>
-                        Sente que não fidelize clientes porque não tem durabilidade na sua entrega.
+                        Sente que não fideliza clientes porque não tem durabilidade na sua entrega.
                     </p>
                 </div>
                 <div className="list-info4">
@@ -49,7 +49,7 @@ export function Path() {
         <div className="container-button">
             <div className="button-info">
                 <button onClick={linkInfo}>
-                    Entar no grupo vip!
+                    Entrar no grupo vip!
                 </button>
             </div>
         </div>

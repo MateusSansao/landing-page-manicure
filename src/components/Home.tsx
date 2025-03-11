@@ -19,7 +19,7 @@ export function Home() {
             MANICURE EXPERT no ONLINE
           </h1>
           <p>
-            Aprenda o Método definitivo que vai transformar a sua entrega em resultado 
+            Aprenda o Método definitivo que vai transformar a sua entrega em resultados 
             de excelência e assim fidelize clientes, 
             fature mais e se torne uma profissional reconhecida.
           </p>
