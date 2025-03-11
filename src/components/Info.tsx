@@ -1,7 +1,7 @@
-import money from "../../public/Design sem nome (1) 1.svg"
-import augema from "../../public/Design sem nome (4) (1) 1.svg"
-import loading from "../../public/Captura de Tela 2025-03-07 às 10.41.01 1.svg"
-import trofeu from "../../public/Design sem nome (5) (1) 1.svg"
+import money from "../../public/money.webp"
+import augema from "../../public/algema.webp"
+import loading from "../../public/loading.webp"
+import trofeu from "../../public/trofeu.webp"
 import "./Info.scss"
 
 export function Path() {

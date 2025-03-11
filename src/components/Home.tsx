@@ -1,4 +1,4 @@
-import manicure from "../../public/IMG_5616 2.svg"
+import manicure from "../../public/manicureHome.webp"
 import './Home.scss'
 
 

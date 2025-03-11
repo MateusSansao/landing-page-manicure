@@ -1,4 +1,4 @@
-import ManicureFooter from "../../public/IMG_5615 2.svg"
+import ManicureFooter from "../../public/manicureFooter.webp"
 import "./Footer.scss"
 
 export function Footer() {
